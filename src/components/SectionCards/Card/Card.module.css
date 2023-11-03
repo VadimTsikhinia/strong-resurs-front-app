@@ -1,0 +1,64 @@
+
+
+.headline {
+    display: block;
+    margin: 0 auto;
+    list-style: none;
+    max-width: 260px;
+    height: 30px;
+    background: var(--clr1);
+    border-radius: var(--text-radius);
+}
+.text {
+    display: block;
+    margin: 10px auto;
+    max-width: 500px;
+    height: 14px;
+    background: var(--clr1);
+    border-radius: var(--text-radius);
+}
+.button {
+    display: block;
+    margin: 20px auto 0 auto;
+    max-width: 120px;
+    height: 35px;
+    background: var(--clr1);
+    border-radius: var(--text-radius);
+}
+
+.cards {
+    padding: 0px;
+    background: transparent;
+    display: table;
+}
+.card {
+    background: var(--clr2);
+    width: calc(33.6% - 10px);
+    margin: 0 5px;
+    border-radius: var(--border-radius);
+    display: inline-block;
+}
+.card:first-child {
+    margin: 0 5px 0 0;
+}
+.card:last-child {
+    margin: 0 0 0 5px;
+}
+.content {
+    padding: 40px;
+}
+.card img {
+    width: 100%;
+    height: auto;
+    border-radius: var(--border-radius) var(--border-radius) 0px 0px;
+}
+
+@media (max-width: 728px) {
+    .card {
+        width: 100%;
+        display: block;
+        margin: 10px 0 0 0 !important;
+        padding: 0;
+    }
+}
+
