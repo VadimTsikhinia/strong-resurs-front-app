@@ -7,9 +7,9 @@ export const Header = () => {
             <div className={style.logo}></div>
             <nav>
                 <ul>
-                    <li></li>
-                    <li></li>
-                    <li></li>
+                    <li>Главная</li>
+                    <li>Каталог</li>
+                    <li>Контакты</li>
                 </ul>
             </nav>
         </header>

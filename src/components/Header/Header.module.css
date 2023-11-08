@@ -8,10 +8,13 @@ header {
 }
 
 header .logo {
-    background: var(--clr1);
-    width: 50px;
-    height: 50px;
-    border-radius: var(--text-radius);
+    /*background: var(--clr1);*/
+    background: url("../../240-140-b.svg") center;
+    background-repeat: no-repeat;
+    background-size: 120px;
+    width: 120px;
+    height: 70px;
+    /*border-radius: var(--text-radius);*/
 }
 
 header nav {
@@ -20,11 +23,22 @@ header nav {
     top: 50%;
     transform: translate(-50px, -50%);
 }
+
+header nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 300px;
+}
+
 header nav ul li {
-    display: inline-block;
+    /*display: inline-block;*/
+    color: var(--clr1);
+    font-weight: bold;
+    font-size: large;
     list-style: none;
     width: 60px;
     height: 10px;
-    background: var(--clr1);
-    border-radius: var(--text-radius);
+    /*background: var(--clr1);*/
+    /*border-radius: var(--text-radius);*/
 }
