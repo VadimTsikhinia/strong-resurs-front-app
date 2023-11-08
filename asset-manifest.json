@@ -1,15 +1,17 @@
 {
   "files": {
-    "main.css": "/strong-resurs-front-app/static/css/main.c821f8ac.css",
+    "main.css": "/strong-resurs-front-app/static/css/main.b854f810.css",
     "main.js": "/strong-resurs-front-app/static/js/main.c7602d0d.js",
     "static/js/787.ea0b01fc.chunk.js": "/strong-resurs-front-app/static/js/787.ea0b01fc.chunk.js",
+    "static/media/236-140.svg": "/strong-resurs-front-app/static/media/236-140.45ac33fb0e039e739802.svg",
+    "static/media/logo-236-140.png": "/strong-resurs-front-app/static/media/logo-236-140.527a4dae4bf12c13a87c.png",
     "index.html": "/strong-resurs-front-app/index.html",
-    "main.c821f8ac.css.map": "/strong-resurs-front-app/static/css/main.c821f8ac.css.map",
+    "main.b854f810.css.map": "/strong-resurs-front-app/static/css/main.b854f810.css.map",
     "main.c7602d0d.js.map": "/strong-resurs-front-app/static/js/main.c7602d0d.js.map",
     "787.ea0b01fc.chunk.js.map": "/strong-resurs-front-app/static/js/787.ea0b01fc.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c821f8ac.css",
+    "static/css/main.b854f810.css",
     "static/js/main.c7602d0d.js"
   ]
 }
