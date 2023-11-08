@@ -10,10 +10,11 @@ import {Footer} from "./components/Footer/Footer";
 function App() {
     return (
         <>
+            <Header/>
             <div className={style.wrapper}>
                 <div className={style.wrap}>
                     <div className="arrow animated bounce"></div>
-                    <Header/>
+                    {/*<Header/>*/}
                     <SectionTransparent/>
                     <SectionCards/>
                     <SectionCards/>
