@@ -23,6 +23,11 @@ body *, body :after, body :before {
     box-sizing: border-box;
 }
 
+a {
+    list-style: none;
+    text-decoration: none;
+}
+
 .transparent {
     background: transparent !important;
 }

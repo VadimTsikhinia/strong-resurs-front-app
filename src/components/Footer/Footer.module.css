@@ -29,7 +29,7 @@ footer nav ul {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    width: 260px;
+    width: 280px;
 }
 
 footer nav ul li {
@@ -38,10 +38,14 @@ footer nav ul li {
     font-weight: bold;
     font-size: medium;
     list-style: none;
-    width: 60px;
-    height: 10px;
+    /*width: 60px;*/
+    /*height: 10px;*/
     /*background: var(--clr2);*/
-    border-radius: var(--text-radius);
+    /*border-radius: var(--text-radius);*/
+}
+
+footer nav ul li a {
+    color: var(--clr2);
 }
 
 .footer {
