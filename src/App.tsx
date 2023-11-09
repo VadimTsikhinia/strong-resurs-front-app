@@ -15,6 +15,7 @@ function App() {
                 <div className={style.wrap}>
 
                     <Routes>
+                        <Route path={'/strong-resurs-front-app/'} element={<Home/>}/>
                         <Route path={'/'} element={<Home/>}/>
                         <Route path={'/home'} element={<Home/>}/>
                         <Route path={'/catalog'} element={<Catalog/>}/>
